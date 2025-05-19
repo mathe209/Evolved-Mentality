@@ -4,7 +4,7 @@ import About from './pages/about';
 import MENtorship from './pages/MENtorship';
 import Event from './pages/event';
 import Join from './pages/join';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { HelmetProvider } from 'react-helmet-async';
 
@@ -28,7 +28,7 @@ function AnimatedRoutes() {
 function App() {
   return (
     <HelmetProvider>
-      <Router basename="/Evolved-Mentality/">
+      <Router>
         <AnimatedRoutes />
       </Router>
     </HelmetProvider>
