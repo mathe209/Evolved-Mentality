@@ -37,7 +37,7 @@ export default function About() {
         <hr/>
         <p className="text-xl mb-6 mt-4">
             We pride ourselves on leveraging technology and the power of social media to blur the lines of geographical separation.<br/>
-            Through this we are able to unite members of our community in one unison intergrated platform.
+            Through this we are able to unite members of our community in one unison integrated platform.
         </p>
 
       </div>
