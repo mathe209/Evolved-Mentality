@@ -24,6 +24,7 @@ export default function Hero() {
         >
           Join Us
         </button>
+        <div></div>
       </motion.div>
     </section>
   );
