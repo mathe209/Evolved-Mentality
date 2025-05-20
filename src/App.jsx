@@ -29,7 +29,7 @@ function AnimatedRoutes() {
 function App() {
   return (
     <HelmetProvider>
-      <Router basename="/Evolved-Mentality/">
+      <Router>
         <AnimatedRoutes />
       </Router>
     </HelmetProvider>
