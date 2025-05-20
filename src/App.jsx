@@ -11,7 +11,7 @@ import { useLocation, Routes, Route } from 'react-router-dom';
 
 // Wrap routing logic in a separate component so you can use `useLocation`
 function AnimatedRoutes() {
-  const location = usesLocation();
+  const location = useLocation();
 
   return (
     <AnimatePresence mode="wait">
