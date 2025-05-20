@@ -2,13 +2,14 @@ import { useState } from "react";
 import Navbar from "../componets/navbar";
 import Socials from "../componets/socials";
 const eventImages = [
-  { src: process.env.PUBLIC_URL + "/event1.jpg", caption: "Youth Mentorship Camp 2023" },
-  { src: process.env.PUBLIC_URL + "/event2.jpg", caption: "Mental Health Awareness Day" },
-  { src: process.env.PUBLIC_URL + "/event3.jpg", caption: "Fatherhood Workshop" },
-  { src: process.env.PUBLIC_URL + "/event4.jpg", caption: "Community Clean-up Drive" },
-  { src: process.env.PUBLIC_URL + "/event62.jpg", caption: "LGBTQ+ Inclusivity Talk" },
-  { src: process.env.PUBLIC_URL + "/event6.jpg", caption: "Spiritual Retreat" },
+  { src: "/Evolved-Mentality/event1.jpg", caption: "Youth Mentorship Camp 2023" },
+  { src: "/Evolved-Mentality/event2.jpg", caption: "Mental Health Awareness Day" },
+  { src: "/Evolved-Mentality/event3.jpg", caption: "Fatherhood Workshop" },
+  { src: "/Evolved-Mentality/event4.jpg", caption: "Community Clean-up Drive" },
+  { src: "/Evolved-Mentality/event62.jpg", caption: "LGBTQ+ Inclusivity Talk" },
+  { src: "/Evolved-Mentality/event6.jpg", caption: "Spiritual Retreat" },
 ];
+
 
 export default function EventGallery() {
   const [selectedImage, setSelectedImage] = useState(null);
