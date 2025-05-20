@@ -2,12 +2,12 @@ import { useState } from "react";
 import Navbar from "../componets/navbar";
 import Socials from "../componets/socials";
 const eventImages = [
-  { src: "/event1.jpg", caption: "Youth Mentorship Camp 2023" },
-  { src: "/event2.jpg", caption: "Mental Health Awareness Day" },
-  { src: "/event3.jpg", caption: "Fatherhood Workshop" },
-  { src: "/event4.jpg", caption: "Community Clean-up Drive" },
-  { src: "/event62.jpg", caption: "LGBTQ+ Inclusivity Talk" },
-  { src: "/event6.jpg", caption: "Spiritual Retreat" },
+  { src: process.env.PUBLIC_URL + "/event1.jpg", caption: "Youth Mentorship Camp 2023" },
+  { src: process.env.PUBLIC_URL + "/event2.jpg", caption: "Mental Health Awareness Day" },
+  { src: process.env.PUBLIC_URL + "/event3.jpg", caption: "Fatherhood Workshop" },
+  { src: process.env.PUBLIC_URL + "/event4.jpg", caption: "Community Clean-up Drive" },
+  { src: process.env.PUBLIC_URL + "/event62.jpg", caption: "LGBTQ+ Inclusivity Talk" },
+  { src: process.env.PUBLIC_URL + "/event6.jpg", caption: "Spiritual Retreat" },
 ];
 
 export default function EventGallery() {
