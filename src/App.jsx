@@ -7,10 +7,11 @@ import Join from './pages/join';
 import { HashRouter as Router } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { HelmetProvider } from 'react-helmet-async';
+import { useLocation, Routes, Route } from 'react-router-dom';
 
 // Wrap routing logic in a separate component so you can use `useLocation`
 function AnimatedRoutes() {
-  const location = useLocation();
+  const location = usesLocation();
 
   return (
     <AnimatePresence mode="wait">
