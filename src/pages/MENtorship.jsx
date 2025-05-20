@@ -7,18 +7,18 @@ import "swiper/css";
 import { Helmet } from "react-helmet-async";
 export default function MENtorship() {
   const images = [
-    "/mentorship1.jpg",
-    "/mentorship2.jpg",
-    "/mentorship4.jpg"
+    "/Evolved-Mentality/mentorship1.jpg",
+    "/Evolved-Mentality/mentorship2.jpg",
+    "/Evolved-Mentality/mentorship4.jpg"
   ];
   const images1 = [
-    "/mentorship1.jpg",
-    "/mentorship2.jpg",
-    "/mentorship4.jpg",
-    "/mentorship5.jpg",
-    "/mentorship6.jpg",
-    "/mentorship7.jpg",
-    "/mentorship8.jpg"
+    "/Evolved-Mentality/mentorship1.jpg",
+    "/Evolved-Mentality/mentorship2.jpg",
+    "/Evolved-Mentality/mentorship4.jpg",
+    "/Evolved-Mentality/mentorship5.jpg",
+    "/Evolved-Mentality/mentorship6.jpg",
+    "/Evolved-Mentality/mentorship7.jpg",
+    "/Evolved-Mentality/mentorship8.jpg"
   ];
 
   return (

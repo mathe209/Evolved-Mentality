@@ -3,11 +3,11 @@ import Images from '../componets/images';
 import Navbar from '../componets/navbar';
 import Socials from '../componets/socials';
 const images = [
-    "/lerato.jpg",
-    "/kamohelo.jpg",
-    "/kutlwano.jpg",
-    "/aphelele.jpg",
-    "/tumelo.jpg"
+    "/Evolved-Mentality/lerato.jpg",
+    "/Evolved-Mentality/kamohelo.jpg",
+    "/Evolved-Mentality/kutlwano.jpg",
+    "/Evolved-Mentality/aphelele.jpg",
+    "/Evolved-Mentality/tumelo.jpg"
 ]
 const pageVariants = {
   initial: { opacity: 0, y: 30 },
