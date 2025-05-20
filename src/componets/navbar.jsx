@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -12,15 +13,15 @@ export default function Navbar() {
 
         {/* Desktop Links */}
         <ul className="hidden md:flex gap-6">
-          <li><a href="/" className="hover:text-gray-400">Home</a></li>
-          <li><a href="/mentorship" className="hover:text-gray-400">Mentorship</a></li>
-          <li><a href="/about" className="hover:text-gray-400">About</a></li>
-          <li><a href="/event" className="hover:text-gray-400">Events</a></li>
+          <li><Link to="/" className="hover:text-gray-400">Home</Link></li>
+          <li><Link to="/mentorship" className="hover:text-gray-400">Mentorship</Link></li>
+          <li><Link to="/about" className="hover:text-gray-400">About</Link></li>
+          <li><Link to="/event" className="hover:text-gray-400">Events</Link></li>
         </ul>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center gap-2" onClick={() => setOpen(!open)}>
-        <span className="text-sm uppercase tracking-wide">Menu</span>
+          <span className="text-sm uppercase tracking-wide">Menu</span>
           {open ? <X size={24} /> : <Menu size={24} />}
         </div>
       </div>
@@ -28,10 +29,10 @@ export default function Navbar() {
       {/* Mobile Dropdown */}
       {open && (
         <ul className="md:hidden bg-black px-4 pb-4 space-y-2">
-          <li><a href="/" className="block hover:text-gray-400">Home</a></li>
-          <li><a href="/mentorship" className="block hover:text-gray-400">Mentorship</a></li>
-          <li><a href="/about" className="block hover:text-gray-400">About</a></li>
-          <li><a href="/event" className="block hover:text-gray-400">Events</a></li>
+          <li><Link to="/" className="block hover:text-gray-400">Home</Link></li>
+          <li><Link to="/mentorship" className="block hover:text-gray-400">Mentorship</Link></li>
+          <li><Link to="/about" className="block hover:text-gray-400">About</Link></li>
+          <li><Link to="/event" className="block hover:text-gray-400">Events</Link></li>
         </ul>
       )}
     </nav>
