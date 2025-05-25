@@ -10,7 +10,11 @@ echo "🚀 Deploying to GitHub Pages..."
 cd dist
 echo > .nojekyll
 git init
-git remote add origin https://github.com/mathe209/Evolved-Mentality.git
+# Only add remote if it doesn't already exist
+if ! git remote get-url origin &> /dev/null; then
+  git remote add origin https://github.com/mathe209/Evolved-Mentality.git
+fi
+
 git checkout -b gh-pages
 git add .
 git commit -m "Deploy site"
