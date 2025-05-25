@@ -1,21 +1,23 @@
 #!/bin/bash
 
-# Exit on error
 set -e
 
 echo "🛠️ Building the project..."
 npm run build
 
 echo "🚀 Deploying to GitHub Pages..."
+
 cd dist
 echo > .nojekyll
-git init
-# Only add remote if it doesn't already exist
-if ! git remote get-url origin &> /dev/null; then
-  git remote add origin https://github.com/mathe209/Evolved-Mentality.git
-fi
 
+# 💥 Remove old Git repo if it exists
+rm -rf .git
+
+# 🚀 Fresh Git repo
+git init
 git checkout -b gh-pages
+git remote add origin https://github.com/mathe209/Evolved-Mentality.git
+
 git add .
 git commit -m "Deploy site"
 git push -f origin gh-pages
