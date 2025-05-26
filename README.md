@@ -77,7 +77,7 @@ pip install -r requirements.txt
 # Run FastAPI backend
 uvicorn main:app --reload
 ```
-📸 Screenshots
+# 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/6ddf1ffd-df01-41a6-898b-f403d198959e)
 ![image](https://github.com/user-attachments/assets/3439fecf-c3eb-4d5e-8c4a-9bf27247dca8)
 ![image](https://github.com/user-attachments/assets/e46f99f1-5a66-4c1c-95c7-313bf747ccbf)
