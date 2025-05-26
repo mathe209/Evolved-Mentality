@@ -55,13 +55,13 @@ export default function Socials() {
       >
         <Phone size={44} />
       </motion.div>
-      
+
       <motion.div
         animate={{ y: [0, -10, 0] }}
         transition={{ ...bounceSettings.transition, delay: 0.65 }}
       >
         <a
-          href="https://chat.whatsapp.com/HwMmEB6"
+          href="https://chat.whatsapp.com/HwMmEB6tXDJFa3lm3hJ7f7"
           target="_blank"
           rel="noopener noreferrer"
         >
