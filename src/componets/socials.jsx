@@ -48,13 +48,14 @@ export default function Socials() {
       </motion.a>
 
       <motion.div
-        href="tel:+27694568316"
+        href="tel:0694568316"
         animate={{ y: [0, -10, 0] }}
         transition={{ ...bounceSettings.transition, delay: 0.6 }}
         className=' text-white hover:text-gray-400 transition'
       >
         <Phone size={44} />
       </motion.div>
+      
       <motion.div
         animate={{ y: [0, -10, 0] }}
         transition={{ ...bounceSettings.transition, delay: 0.65 }}
