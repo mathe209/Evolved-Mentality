@@ -35,7 +35,7 @@ export default function About() {
       <div className="container m-3 p-2  rounded-xl hero bg-gradient-to-r from-black to-gray-800 text-white">
         <h1 className="text-6xl font-extrabold mb-4">About Us</h1>
         <hr/>
-        <p className="text-xl mb-6 mt-4">
+        <p className="mb-6 mt-4">
             We pride ourselves on leveraging technology and the power of social media to blur the lines of geographical separation.<br/>
             Through this we are able to unite members of our community in one unison integrated platform.
         </p>
@@ -44,7 +44,7 @@ export default function About() {
       <p className="text-2xl font-bold mb-4 mt-4">Meet the team</p>
       <hr/>
     </motion.div>
-    <div className='mt-5'> 
+    <div className='mt-5 mb-5'> 
     <Images images={images}/>
     </div>
     <p className='text-center mb-6'>Est. 2023</p>

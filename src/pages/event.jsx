@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../componets/navbar";
 import Socials from "../componets/socials";
 const eventImages = [
-  { src: "/Evolved-Mentality/event1.jpg", caption: "Youth Mentorship Camp 2023" },
+  { src: "/Evolved-Mentality/event1.jpg", caption: "Youth Mentorship Workshop 2025" },
   { src: "/Evolved-Mentality/event2.jpg", caption: "Mental Health Awareness Day" },
   { src: "/Evolved-Mentality/event3.jpg", caption: "Fatherhood Workshop" },
   { src: "/Evolved-Mentality/event4.jpg", caption: "Community Clean-up Drive" },

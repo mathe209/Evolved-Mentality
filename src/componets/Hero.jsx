@@ -16,7 +16,7 @@ export default function Hero() {
         <hr />
         <p className="text-xl mb-6 mt-4">Unleash your mind. Build your potential.</p>
         <p className="mb-6">
-          Focused on providing resources and serving as a medium of practicing healthy<br /> masculinity.
+          Healthy Masculinity Advocacy | Holistic Wellness | Personal Evolution | MENtorship
         </p>
         <button
           className="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-300 transition-all duration-300"

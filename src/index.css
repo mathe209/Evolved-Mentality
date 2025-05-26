@@ -32,3 +32,17 @@ body{
     background-position: 0% 50%;
   }
 }
+
+/* index.css */
+p, li {
+  font-size: 1rem; /* 16px */
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 640px) {
+  p, li {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}

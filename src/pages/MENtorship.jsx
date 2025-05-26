@@ -38,22 +38,34 @@ export default function MENtorship() {
       <div className="container mx-auto mt-9 mb-4 p-5 rounded-xl bg-gradient-to-r from-black to-gray-800 text-white justify-center"> 
         <h1 className="text-4xl font-extrabold mb-4 pt-4">MENTORSHIP</h1>
         <hr/>
-        <p className="text-xl mb-6 mt-4">
-          Welcome to the MENtality Mentorship Program.
+        <p className="text-xl mb-4 mt-4">
+          Welcome to the MENtorship Program.
+        </p>
+        <p>
+          Our main objective is to foster professional growth and learning. By blending technology with human connection thoughtfully.
         </p>
       </div>
 
       <div className="container mx-auto mb-5 p-2 rounded-xl bg-gradient-to-l from-black to-gray-800 text-lg">
-        <ul className="pl-5 space-y-1">
-          <li>Substance abuse and GBV</li>
-          
-          <li>Sexual health in men</li>
-          <li>Depression and mental health</li>
-          <li>Spirituality</li>
-          <li>Inclusivity and attitudes toward the LGBTQ+ community</li>
-          <li>Being future-focused as a man today</li>
-          <li>Challenges of navigating fatherhood</li>
-        </ul>
+        <h1 className="text-2xl text-white font-bold m-3">Capabilities of the MENtorship Program
+        <hr className="my-4"/>
+        </h1>
+        <p>
+          <strong>Structured Program</strong>: Clear goals, timelines,and defined outcomes that will be supported by our mentorship learning outcomes and evaluation metrics.
+        </p>
+        <p>
+          <strong>Customization</strong>: Tailored to address specific needs, be it career guidance, industry insights, and personal growth.
+        </p>
+        <p>
+          <strong>Digital Interaction</strong>: Calls, video calls, chat apps and virtual collaboration platforms like GoogleMeet, Teams and Zoom.
+        </p>
+        <p>
+          <strong>Global Reach</strong>: Removes geographical barriers, enabling diverse mentor-mentee pairings.
+        </p>
+        <p>
+          <strong>Flexibility</strong>: Participants set meetings that accommodate different time zones and lifestyles.
+        </p>
+
       </div>
 
       <div className="mx-auto">
@@ -97,6 +109,8 @@ export default function MENtorship() {
       </div>
 
       <h2 className="text-3xl font-extrabold mb-4 mt-4 text-center justify-center">Become a mentor/mentee</h2>
+      <img src="/Evolved-Mentality/logo.jpg" alt="logo" className="w-54 h-44 mx-auto mb-4 rounded-xl mt-6"/>
+
       <MentoForm />
       <Socials />
     </>

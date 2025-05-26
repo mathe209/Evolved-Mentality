@@ -7,10 +7,11 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-black text-white z-50">
-      <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="max-w-6xl mx-auto pt-2 pb-2 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-2xl font-bold">EM</div>
-
+        <Link to="/">
+          <img src="/Evolved-Mentality/logo.jpg" alt="logo" className="w-16 h-12 mx-auto" loading="lazy"/>
+        </Link>
         {/* Desktop Links */}
         <ul className="hidden md:flex gap-6">
           <li><Link to="/" className="hover:text-gray-400">Home</Link></li>

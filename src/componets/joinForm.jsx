@@ -32,9 +32,10 @@ export default function JoinForm(){
         return(
         <>
         <div className="container">
-            <h1>Join Us</h1>
+            <h1 className="text-4xl font-extrabold pt-8">Join Us</h1>
+            <img src="/Evolved-Mentality/logo.jpg" alt="logo" className="w-54 h-44 mx-auto mb-4 rounded-xl mt-6"/>
             <hr/>
-            <p className="text-center mb-4 mt-4">
+            <p className="text-center mb-4 mt-5">
                 Would you like to join us as a member?<br></br>
                 Fill out our form below.
             </p>
@@ -97,13 +98,10 @@ export default function JoinForm(){
 
                 <label className="flex flex-col gap-2">
                     Message
-                    <textarea name="message" rows="4" value={message} onChange={(e) => setMessage(e.target.value)} className="rounded-md p-2 text-black" placeholder="Please enter the areas you wish to mentor or get mentorship in"></textarea>
+                    <textarea name="message" rows="4" value={message} onChange={(e) => setMessage(e.target.value)} className="rounded-md p-2 text-black" placeholder="Please enter your query, or any other specific information you would like to share"></textarea>
                 </label>
                 <button type="submit" value="Submit" className="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-300 transition-all duration-300">Submit</button>
             </form>
-            <p>
-                If already a member but have a query, messeage us at
-            </p>
         </div>
         </>
     )
