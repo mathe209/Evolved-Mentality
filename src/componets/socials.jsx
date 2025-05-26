@@ -61,7 +61,7 @@ export default function Socials() {
         transition={{ ...bounceSettings.transition, delay: 0.65 }}
       >
         <a
-          href="https://chat.whatsapp.com/HwMmEB6tXDJFa3lm3hJ7f7"
+          href="https://chat.whatsapp.com/HwMmEB6tXDJFa3Im3hJ7f7?fbclid=PAY2xjawKZqudleHRuA2FlbQIxMQABp9YRj-7yZk_f4alwFQacjVPgZe7XpSjxcWQP9XCF1gk8Ymt-P3pJLFxT3roa_aem_ktLaWw2QiUBdCqFLKXAD7w"
           target="_blank"
           rel="noopener noreferrer"
         >
