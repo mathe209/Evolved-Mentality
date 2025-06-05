@@ -48,17 +48,7 @@ evolved-mentality/
 
 - Node.js (v18 or newer)
 - Python 3.9+
-
-# Create virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
-# Install Python dependencies
-pip install -r requirements.txt
-
-# Run FastAPI backend
-uvicorn main:app --reload
-```
+  
 # 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/6ddf1ffd-df01-41a6-898b-f403d198959e)
 ![image](https://github.com/user-attachments/assets/3439fecf-c3eb-4d5e-8c4a-9bf27247dca8)
