@@ -3,9 +3,7 @@
 **Evolved Mentality** is a youth empowerment platform built to help young people, especially men. The platform provides access to motivation, skill development, and mentorship.
 
 ## 🌐 Live Demo
-
-> Coming soon — hosted version or deployment link (e.g., Vercel, Netlify)
-
+project published at www.evolvedmentality.co.za but we are still in the testing phase, therefore form submissions wont work.
 ---
 
 ## 🛠 Tech Stack
