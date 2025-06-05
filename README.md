@@ -49,22 +49,6 @@ evolved-mentality/
 - Node.js (v18 or newer)
 - Python 3.9+
 
-### Frontend Setup
-
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-```
-Backend (API) Setup
-```bash
-Copy
-Edit
-# Navigate to API folder
-cd API
-
 # Create virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
